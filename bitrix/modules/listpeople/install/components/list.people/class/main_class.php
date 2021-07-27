@@ -35,7 +35,7 @@ class ListPeople extends CBitrixComponent {
 				$base64img = base64_encode($prepData);
 				$arResult['ITEMS'][$ar['ID']]['AVATAR'] = "data:image/png;base64,".$base64img;
 			} else {
-				$arResult['ITEMS'][$ar['ID']]['AVATAR'] = "/upload/user_avatar.png";
+				$arResult['ITEMS'][$ar['ID']]['AVATAR'] = "/bitrix/modules/listpeople/install/components/list.people/class/img/user_avatar.png";
 			}
 
 		}
