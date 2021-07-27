@@ -1,0 +1,114 @@
+.wrap {
+  width: 100%;
+  position: relative;
+}
+
+.tr-title {
+  background: #000;
+}
+
+.tr-title th {
+  padding: 20px 0;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.table-list-people th, .table-list-people td {
+  font-size: 14px;
+  font-weight: 500;
+  font-family: 'Arial';
+}
+
+.table-list-people {
+  border-radius: 15px;
+  border-collapse: collapse;
+  margin: 30px auto;
+}
+
+.table-list-people td {
+  width: 300px;
+  text-align: center;
+  padding: 10px 0;
+  background-color: #e7f9e3;
+}
+
+.item {
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
+
+.admin-panel {
+  max-width: 400px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.but {
+  display: block;
+  padding: 10px 15px;
+  border-radius: 15px;
+  color: #000;
+  text-decoration: none;
+  border: 1px solid #000;
+}
+
+.modal-wrap {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+  height: 100%;
+  width: 100%;
+}
+
+.modal-wrap:after {
+  content: "";
+  top: 0;
+  left: 0;
+  position: absolute;
+  background-color: rgba(0,0,0,0.5);
+  height: 100%;
+  width: 100%;
+  z-index: 9000;
+}
+
+.modal-admin {
+  position: relative;
+  margin: 50px auto;
+  background-color: #fff;
+  z-index: 9999;
+  width: 500px;
+  display: flex;
+}
+
+.modal-admin form{
+  margin: 30px auto;
+}
+
+.input input {
+  width: 300px;
+  font-size: 15px;
+  padding: 15px 10px;
+}
+
+.close {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  font-size: 18px;
+  text-decoration: none;
+  color: red;
+}
+
+.save {
+  display: none;
+}
+
+.img {
+	width: 100px;
+}
